@@ -1,0 +1,56 @@
+.body_youtube{
+    display: flex;
+    flex-direction: row;
+}
+.menubar_left{
+    width: 100px;
+    /* background-color: blue; */
+    height: auto;
+    border-right: 0.5px solid #F0E5CF;
+}
+.menubar_left button p{
+    font-size: 10px;
+}
+.slide_menuBar{
+    width: 100%;
+    margin: 0 10px;
+}
+
+.slide_menuBar .carousel-inner .item.active.carousel-item .row .col-lg{
+    border-radius: 25px;
+    padding: 10px 10px;
+    background-color: rgb(208, 208, 216);
+    margin: 10px 2px;
+    text-align: center;
+}
+.slide_menuBar .carousel-inner .item.active.carousel-item .row .col-lg:hover{
+    background-color: rgb(90, 90, 90);
+    box-shadow: 5px 5px 5px rgb(66, 55, 55);
+}
+
+.slide_menuBar .carousel-inner .item.active.carousel-item .row .col-lg a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.button_left, .button_right{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+.menubar_left button:hover{
+    background-color: cornsilk;
+    
+    
+}
+
+
+
+@media (max-width: 768px){
+    .menubar_left{
+        display: none;
+    }
+}
